@@ -1,7 +1,7 @@
 Code Climate Lunch & Learn Example
 
 Example files: https://gist.github.com/dblandin/589e70345774298e1622850349c31876
-
+  
 ## Setup 
 
 
