@@ -10,7 +10,7 @@ Example files: https://gist.github.com/dblandin/589e70345774298e1622850349c31876
 
 <img src="https://raw.githubusercontent.com/codeclimate-demo/example-foobar/master/screenshots/2017-05-23-052427_978x491_scrot.png" align="center" width="600" />
 
-## Introduce some complexity
+## Introduce some complexity 
 
 1. Modify `foo_bar.rb` with [this content](https://gist.github.com/dblandin/589e70345774298e1622850349c31876#file-foo_bar-rb) from gist
 1. Push to fork and open PR against master
