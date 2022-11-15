@@ -1,5 +1,7 @@
 Code Climate Lunch & Learn Example
 
+
+
 Example files: https://gist.github.com/dblandin/589e70345774298e1622850349c31876
   
 ## Setup 
@@ -63,5 +65,3 @@ You should now see green annotations which mean those lines are now covered by
 You should now see duplication issues reported by Code Climate.
 
 <img src="https://raw.githubusercontent.com/codeclimate-demo/example-foobar/master/screenshots/2017-05-23-053732_1798x983_scrot.png" align="center" width="600" />
-   
-  
