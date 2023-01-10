@@ -1,4 +1,4 @@
-Code Climate Lunch & Learn Example
+Code Climate Lunch & Learn Example 
 
 
 
