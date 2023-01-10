@@ -1,8 +1,7 @@
 
 
 
-
-# TODO: Add FooBar content
+# TODO: Add FooBar content here
 class FooBar
   def run(items = gets.chomp.to_i)
     if items > 0
