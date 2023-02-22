@@ -20,6 +20,8 @@ class FooBar
           list << "FOOBAR"
         elsif n % 3 == 0
           list << "FOO"
+        elsif n % 5 == 0
+          list << "BAR"
         else
           list << n
         end
@@ -31,3 +33,5 @@ class FooBar
     list
   end
 end
+
+
