@@ -5,11 +5,6 @@
 
 
 
-
- 
-
-
-
 # TODO: Add FooBar content here
 class FooBar
   def run(things = gets.chomp.to_i)
