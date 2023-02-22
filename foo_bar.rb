@@ -3,10 +3,10 @@
 
 # TODO: Add FooBar content here
 class FooBar
-  def run(items = gets.chomp.to_i)
-    if items > 0
+  def run(things = gets.chomp.to_i)
+    if things > 0
       list = []
-      (1..items).each do |n|
+      (1..things).each do |n|
         if n % 3 == 0 && n % 5 == 0
           list << "FOOBAR"
         elsif n % 3 == 0
