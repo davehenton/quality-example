@@ -53,7 +53,7 @@ You should now see green annotations which mean those lines are now covered by
 
 1. Modify `duplication.rb` and `duplication_2.rb` with [these](https://gist.github.com/dblandin/589e70345774298e1622850349c31876#file-duplication-rb) [files](https://gist.github.com/dblandin/589e70345774298e1622850349c31876#file-duplication_2-rb)
 
-1. Commit and push to your fork PR branch
+1. Commit and push to your fork PR branch 
 
     ```
     git add duplication.rb duplication_2.rb
