@@ -22,7 +22,7 @@ class FooBar
         end
       end
     else
-      puts "Please enter a positive number"
+      puts "Please enter a positive number."
     end
 
     list
