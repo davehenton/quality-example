@@ -44,7 +44,7 @@ status.
     git push origin master
     ```
 
-You should now see green annotations which mean those lines are now covered by
+You should now see green annotations which mean those lines are now covered by 
 
 <img src="https://raw.githubusercontent.com/codeclimate-demo/example-foobar/master/screenshots/2017-05-23-053507_2560x1415_scrot.png" align="center" width="600" />
 <img src="https://raw.githubusercontent.com/codeclimate-demo/example-foobar/master/screenshots/2017-05-23-053532_1802x1070_scrot.png" align="center" width="600" />
