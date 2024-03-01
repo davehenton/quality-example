@@ -50,3 +50,4 @@ The browser extension will also highlight the newly covered lines in `foo_bar.rb
 
 2. Commit to `demo-branch`. You should now see duplication issues reported by Code Climate.     
 
+ 
