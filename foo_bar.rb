@@ -20,3 +20,5 @@ class FooBar
     list
   end
 end
+
+
