@@ -21,7 +21,7 @@ Example files: https://gist.github.com/davehenton/e5bf6a7f415a9aca14df316c5d0a59
 
 You should now see a Cognitive Complexity issue reported by Quality as a PR status
 and via the browser extension on the diff. Test coverage reporting should also show
-uncovered lines via the browser extension and a drop in coverage via the `diff-coverage` and `total-coverage` statuses.
+uncovered lines via the browser extension and a drop in coverage via the `diff-coverage` and `total-coverage` statuses. 
 
 ![Screenshot 2023-01-25 at 7 45 55 PM](https://user-images.githubusercontent.com/18341459/214743756-2335f16e-794c-4456-9483-3fc45900e6c6.png)
 
@@ -47,5 +47,11 @@ The browser extension will also highlight the newly covered lines in `foo_bar.rb
 
 1. On your existing `demo-branch` branch, modify `duplication.rb` and `duplication_2.rb` with [these](https://gist.github.com/davehenton/e5bf6a7f415a9aca14df316c5d0a593f#file-duplication-rb) [files](https://gist.github.com/davehenton/e5bf6a7f415a9aca14df316c5d0a593f#file-duplication_2-rb)
 
-2. Commit to `demo-branch`. You should now see duplication issues reported by Code Climate.     
+2. Commit to `demo-branch`. You should now see duplication issues reported by Code Climate. Grab a screenshot of your browser window. 
+
+3. Merge your `demo-branch` into `master`.
+
+## Tweak your configuration
+
+1. You'll notice that Quality is now displaying several issue in the Quality UI. For example, you'll see that a certain method has a Cognitive Complexity of 9, which exceeds 5 allowed. Adjust your Quality configuration so that this check uses a threshold of 10 instead of 5.  
 
