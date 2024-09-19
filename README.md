@@ -1,13 +1,12 @@
-Code Climate Lunch & Learn Example
+Quality Practice Exercise
 
 
-
-Example files: https://gist.github.com/dblandin/589e70345774298e1622850349c31876
+Example files: https://gist.github.com/davehenton/e5bf6a7f415a9aca14df316c5d0a593f
 
 ## Setup
 
 1. Install the Code Climate [browser extension](https://codeclimate.com/browser-extension)
-2. [Fork](https://github.com/davehenton/example-foobar) this project to your own GitHub user. 
+2. [Fork](https://github.com/davehenton/quality-example) this project to your own GitHub user. 
 3. Import your new fork of the repo to Quality, using the `Open Source` section of the Quality UI.
 4. Update the included CircleCI config file with the Test Reporter ID found in your Repo Settings in Quality.
 5. Create a CircleCI user, and add your repo to CircleCI. 
@@ -17,7 +16,7 @@ Example files: https://gist.github.com/dblandin/589e70345774298e1622850349c31876
 
 ## Introduce some complexity
 
-1. In the GitHub UI, modify `foo_bar.rb` with [this content](https://gist.github.com/dblandin/589e70345774298e1622850349c31876#file-foo_bar-rb) from gist
+1. In the GitHub UI, modify `foo_bar.rb` with [this content](https://gist.github.com/davehenton/e5bf6a7f415a9aca14df316c5d0a593f#file-foo_bar-rb) from gist
 2. When committing the changes, create a new branch titled `demo-branch` for the commit and open a pull request. 
 
 You should now see a Cognitive Complexity issue reported by Quality as a PR status
@@ -33,7 +32,7 @@ uncovered lines via the browser extension and a drop in coverage via the `diff-c
 
 ## Add some test coverage
 
-1. On your existing `demo-branch` branch, modify `spec/foo_bar_spec.rb` with [this content](https://gist.github.com/dblandin/589e70345774298e1622850349c31876#file-foo_bar_spec-rb) from gist
+1. On your existing `demo-branch` branch, modify `spec/foo_bar_spec.rb` with [this content](https://gist.github.com/davehenton/e5bf6a7f415a9aca14df316c5d0a593f#file-foo_bar_spec-rb) from gist
 2. Commit the update to `demo-branch`. 
 
 Your pull request should now show a smaller decrease in `total-coverage`, and a passing `diff-coverage` status.
@@ -46,7 +45,7 @@ The browser extension will also highlight the newly covered lines in `foo_bar.rb
 
 ## Introduce some duplication
 
-1. On your existing `demo-branch` branch, modify `duplication.rb` and `duplication_2.rb` with [these](https://gist.github.com/dblandin/589e70345774298e1622850349c31876#file-duplication-rb) [files](https://gist.github.com/dblandin/589e70345774298e1622850349c31876#file-duplication_2-rb)
+1. On your existing `demo-branch` branch, modify `duplication.rb` and `duplication_2.rb` with [these](https://gist.github.com/davehenton/e5bf6a7f415a9aca14df316c5d0a593f#file-duplication-rb) [files](https://gist.github.com/davehenton/e5bf6a7f415a9aca14df316c5d0a593f#file-duplication_2-rb)
 
 2. Commit to `demo-branch`. You should now see duplication issues reported by Code Climate.     
 
